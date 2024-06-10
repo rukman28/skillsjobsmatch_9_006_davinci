@@ -6,25 +6,17 @@ module.exports = {
     "./resources/**/*.vue",
   ],
   theme: {
+    fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+        Fjualla: ['Fjalla One', 'sans-serif'],
+        notoserif: ['Noto Serif', 'serif'],
+    },
+    screens: {
+        tablet: '790px',
+        screen_height: '997px'
+
+    },
     extend: {},
-    textColor: {
-        skin: {
-            base: 'var(--color-text-base)',
-        }
-    },
-    backgroundColor: {
-        fill: {
-            primary: 'var(--primary-color)',
-            secondary: 'var(--secondary-color)'
-        }
-    },
-    fontSize: {
-        h1: '2.5rem',
-        h2: '2rem',
-    },
-    fontWeight: {
-        h1: '650',
-    }
   },
   plugins: [],
 }
